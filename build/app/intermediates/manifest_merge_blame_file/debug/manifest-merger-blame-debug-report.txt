@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:5:5-79
+15-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:5:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:6:5-80
+16-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:7:5-78
+17-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:8:5-81
+18-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:9:5-71
+19-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:9:22-69
+20    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+20-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:10:5-72
+20-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:10:22-70
+21    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+21-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:11:5-94
+21-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:11:22-92
+22    <uses-permission android:name="android.permission.READ_SMS" />
+22-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:12:5-66
+22-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:12:22-64
+23    <uses-permission android:name="android.permission.WRITE_SMS" />
+23-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:13:5-67
+23-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:13:22-65
+24    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+24-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:14:5-69
+24-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:14:22-67
+25    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+25-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:15:5-73
+25-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:15:22-70
+26    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+26-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:16:5-78
+26-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:16:22-75
+27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- Include required permissions for Google Maps API to run. -->
+27-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:17:5-76
+27-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:17:22-73
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+28-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+29
+30    <uses-feature
+30-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+31        android:glEsVersion="0x00020000"
+31-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+32        android:required="true" />
+32-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+33
+34    <queries>
+34-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+35
+36        <!-- Needs to be explicitly declared on Android R+ -->
+37        <package android:name="com.google.android.apps.maps" />
+37-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+37-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+38
+39        <intent>
+39-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:25:9-27:18
+40            <action android:name="android.media.browse.MediaBrowserService" />
+40-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:26:13-79
+40-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:26:21-76
+41        </intent>
+42        <intent>
+42-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:28:9-30:18
+43            <action android:name="androidx.media2.session.MediaSessionService" />
+43-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:29:13-82
+43-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:29:21-79
+44        </intent>
+45        <intent>
+45-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:31:9-33:18
+46            <action android:name="androidx.media2.session.MediaLibraryService" />
+46-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:32:13-82
+46-->[androidx.media2:media2-session:1.1.3] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\4074dcb3d3743cf31f0281258ccf41ac\jetified-media2-session-1.1.3\AndroidManifest.xml:32:21-79
+47        </intent>
+48    </queries>
+49
+50    <application
+50-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:19:5-59:19
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.6.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@mipmap/ic_launcher"
+53-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:21:9-43
+54        android:label="project_app" >
+54-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:20:9-36
+55        <activity
+55-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:22:9-50:20
+56            android:name="com.example.project_app.MainActivity"
+56-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:23:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:26:13-163
+58            android:hardwareAccelerated="true"
+58-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:27:13-47
+59            android:launchMode="singleTop"
+59-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:24:13-43
+60            android:theme="@style/LaunchTheme"
+60-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:25:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:28:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:33:13-36:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:34:15-70
+71                android:resource="@style/NormalTheme" />
+71-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:35:15-52
+72            <!--
+73                 Displays an Android View that continues showing the launch screen
+74                 Drawable until Flutter paints its first frame, then this splash
+75                 screen fades out. A splash screen is useful to avoid any visual
+76                 gap between the end of Android's launch screen and the painting of
+77                 Flutter's first frame.
+78            -->
+79            <meta-data
+79-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:42:13-45:17
+80                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+80-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:43:15-79
+81                android:resource="@drawable/launch_background" />
+81-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:44:15-61
+82
+83            <intent-filter>
+83-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:46:13-49:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:47:17-68
+84-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:47:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:48:17-76
+86-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:48:27-74
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+93-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:53:9-55:33
+94            android:name="flutterEmbedding"
+94-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:54:13-44
+95            android:value="2" />
+95-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:55:13-30
+96        <meta-data
+96-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:57:9-58:71
+97            android:name="com.google.android.geo.API_KEY"
+97-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:57:20-65
+98            android:value="AIzaSyDcijmVd7Aam9t--h1k84jyfA7M2Ze5N1UE" />
+98-->D:\vrajesh\project_app\android\app\src\main\AndroidManifest.xml:58:13-69
+99
+100        <provider
+100-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+101            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+101-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+102            android:authorities="com.example.project_app.flutter.image_provider"
+102-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+103            android:exported="false"
+103-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+104            android:grantUriPermissions="true" >
+104-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+105            <meta-data
+105-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+107                android:resource="@xml/flutter_image_picker_file_paths" />
+107-->[:image_picker] D:\vrajesh\project_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+108        </provider>
+109
+110        <service
+110-->[:location] D:\vrajesh\project_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
+111            android:name="com.lyokone.location.FlutterLocationService"
+111-->[:location] D:\vrajesh\project_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-71
+112            android:enabled="true"
+112-->[:location] D:\vrajesh\project_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-35
+113            android:exported="false"
+113-->[:location] D:\vrajesh\project_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+114            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
+114-->[:location] D:\vrajesh\project_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-53
+115        <uses-library
+115-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+116            android:name="org.apache.http.legacy"
+116-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+117            android:required="false" />
+117-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\94037a396762ff3984983786251fc3be\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\StackApp PC\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+127    </application>
+128
+129</manifest>

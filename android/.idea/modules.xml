@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-226155229/android.audio_service.iml" filepath="$PROJECT_DIR$/.idea/modules/-226155229/android.audio_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-953795032/android.external_path.iml" filepath="$PROJECT_DIR$/.idea/modules/-953795032/android.external_path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/744473240/android.flutter_plugin_android_lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/744473240/android.flutter_plugin_android_lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1581095899/android.image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1581095899/android.image_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1713140454/android.just_audio.iml" filepath="$PROJECT_DIR$/.idea/modules/1713140454/android.just_audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-730383299/android.location.iml" filepath="$PROJECT_DIR$/.idea/modules/-730383299/android.location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1497266858/android.permission_handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1497266858/android.permission_handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-306348504/android.shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/-306348504/android.shared_preferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-783161893/android.stripe_payment.iml" filepath="$PROJECT_DIR$/.idea/modules/-783161893/android.stripe_payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1605858137/com.ryanheise.audio_session.android.audio_session.iml" filepath="$PROJECT_DIR$/.idea/modules/-1605858137/com.ryanheise.audio_session.android.audio_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1529746194/com.tekartik.sqflite.android.sqflite.iml" filepath="$PROJECT_DIR$/.idea/modules/-1529746194/com.tekartik.sqflite.android.sqflite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/573619934/io.flutter.plugins.pathprovider.android.path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/573619934/io.flutter.plugins.pathprovider.android.path_provider.iml" />
+    </modules>
+  </component>
+</project>
